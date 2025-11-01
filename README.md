@@ -94,21 +94,14 @@ I designed this analysis independently to explore whether marital status is asso
 
 ## Notes
 
-- All variables are cleaned and recoded as needed before analysis.
-- Used R to convert .xpt files to csv
-- Statistical tests are chosen based on variable types and research questions.
-- Visualizations (boxplots, count plots, scatterplots) are included to support interpretation.
+- All variables were cleaned and recoded according to NHANES documentation before running any analysis.
+- All .xpt files were converted to .csv using R for consistency and ease of use in Python.
+- Invalid or special NHANES missing codes (e.g., 7777, 9999, 77, 99) were removed to prevent incorrect statistical results.
+- Analyses were performed entirely in Google Colab for reproducibility, with clear documentation in each step.
+- Statistical tests were selected based on variable type and research question (e.g., chi-square for categorical associations, t-test/ANOVA for mean comparisons, Pearson correlation for continuous variables).
+- Visualizations such as boxplots, bar charts, regression plots, and contingency tables were included to support interpretation of each statistical result.
+- This project demonstrates the ability to work with real-world public health data, apply statistical methods, and interpret findings in context.
+
 
 ---
 
-## Three Options to Run the Report
-**Automated Scripted Download:**
-Use a Python script to fetch the raw .xpt files and place them in designated folders. Then, process and convert them to .csv format using R.
-
-**Direct Weblink Download in R:**
-Within the R notebook, use code to download .xpt files directly from their URLs and convert them to .csv. Follow up with Python processing.
-
-**URL-Based Referencing in R:**
-Leverage R to access the .xpt files directly via their web URLs, bypassing the need for local downloads altogether.
-
----
