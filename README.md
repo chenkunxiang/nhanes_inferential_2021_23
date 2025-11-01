@@ -85,10 +85,10 @@ I designed this analysis independently to explore whether marital status is asso
 
 ## How to Run
 
-1. Open the notebook in [Google Colab](https://colab.research.google.com).
-2. Follow the steps already provided in the notebook (.ipynb) to download and process the required NHANES datasets such as DEMO_L.xpt, WHQ_L.xpt, DPQ_L.xpt, etc.
-3. Run each analysis cell as instructed to perform the data cleaning, merging, and statistical analysis.
-4. Review the outputs and visualizations to interpret the findings and draw insights.
+1.	Open the notebook using Google Colab.
+2.	Follow the instructions in the notebook to download and process the necessary NHANES datasets, including DEMO_L.xpt, WHQ_L.xpt, DPQ_L.xpt, and others.
+3.	Execute each analysis cell in order to clean, merge, and analyze the data.
+4.	Review the results and visualizations to interpret your findings and extract insights.
 
 ---
 
@@ -101,7 +101,6 @@ I designed this analysis independently to explore whether marital status is asso
 - Statistical tests were selected based on variable type and research question (e.g., chi-square for categorical associations, t-test/ANOVA for mean comparisons, Pearson correlation for continuous variables).
 - Visualizations such as boxplots, bar charts, regression plots, and contingency tables were included to support interpretation of each statistical result.
 - This project demonstrates the ability to work with real-world public health data, apply statistical methods, and interpret findings in context.
-
 
 ---
 
